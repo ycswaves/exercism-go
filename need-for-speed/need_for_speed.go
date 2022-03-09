@@ -26,7 +26,7 @@ func NewCar(speed, batteryDrain int) Car {
 
 // NewTrack created a new track
 func NewTrack(distance int) Track {
-	return Track{distance: distance}
+	return Track{distance}
 }
 
 // Drive drives the car one time. If there is not enough battery to drive on more time,
